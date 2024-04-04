@@ -6,12 +6,12 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="345dp"
-        android:layout_height="180dp"
+        android:layout_width="413dp"
+        android:layout_height="217dp"
         android:adjustViewBounds="true"
         android:scaleType="centerCrop"
         android:src="@drawable/imagen_1"
-        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteX="-1dp"
         tools:layout_editor_absoluteY="16dp" />
 
 
