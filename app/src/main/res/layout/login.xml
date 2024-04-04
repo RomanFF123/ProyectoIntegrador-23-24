@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="406dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/imagen_1" />
+
+    <Button
+        android:id="@+id/buttonFacebook"
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="#3b5998"
+        android:drawableLeft="@drawable/facebook_icono"
+        android:text="Continuar con Facebook"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/buttonGoogle"
+        android:layout_width="450dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="24dp"
+        android:background="#4285F4"
+        android:drawableLeft="@drawable/google_icono"
+        android:text="Continuar con Google"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textViewUsername"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Usuario"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="418dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#9E9E9E"
+        android:hint="Ingrese su usuario" />
+
+    <TextView
+        android:id="@+id/textViewPassword"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Contraseña"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="402dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#9E9E9E"
+        android:hint="Ingrese su contraseña" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="622dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="#000000"
+        android:text="Iniciar sesión"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textViewRegister"
+        android:layout_width="257dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="16dp"
+        android:text="¿No tienes una cuenta? Regístrate aquí"
+        android:textColor="#0000FF" />
+
+
+</LinearLayout>

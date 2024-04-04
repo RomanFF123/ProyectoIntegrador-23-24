@@ -15,6 +15,9 @@ import com.example.myapplication.ui.theme.MyApplicationTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setContentView(R.layout.login) // Infla el diseño XML de login.xml
+        setContentView(R.layout.registro)
+
         setContent {
             MyApplicationTheme {
                 // A surface container using the 'background' color from the theme
